@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Omori";
+    src: url(OMORI_GAME.ttf) format(truetype); 
+}
+
+@font-face {
+    font-family: "Omori1";
+    src: url(OMORI_GAME2.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Roboto :ital,wght@1,100 & display=swap');
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+header{
+    background-color: black;
+    margin: auto;
+}
+
+#logo{
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+nav{
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Omori1';
+    font-size: 1.5em;
+}
+
+nav >a:hover{
+    background-color: rgb(230, 166, 230);
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1{
+    font-family: "Omori1";
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    padding: 20px;
+    font-family: "Omori1";
+    font-size: 2em;
+}
+
+main p{
+    text-align: justify;
+    line-height: 28px;
+    text-indent: 5px;
+    font-family: 'roboto', sem serifa;
+    font-size: 1.1em;
+    
+   
+}
+
+.fotojogo{
+    margin: auto;
+    display: block;
+}
+
+div#video{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 200px;
+    padding-bottom: 20%;
+    position: relative;
+
+}
+
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+footer{
+    background-color: black;
+   width: 100%;
+   padding: 1px;
+   border-radius: 10px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-family: "Omori1";
+    font-size: 1.5em;
+}
+

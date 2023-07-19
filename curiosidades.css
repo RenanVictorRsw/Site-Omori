@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: Omori;
+    src: url(OMORI_GAME.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Omori1;
+    src: url(OMORI_GAME2.ttf);
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(1148181.png);
+    
+}
+
+header{
+   background-color: black;
+}
+
+header > img{
+    margin: auto;
+    display: block;
+    width: 320px;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+nav{
+    padding: 10px;
+    margin: auto;
+    background-color: black
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Omori1';
+    font-size: 1.5em;
+}
+
+nav >a:hover{
+    background-color: rgb(230, 166, 230);
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    max-width: 1000px;
+    min-width: 320px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px;
+    font-family: "Omori1";
+    font-size: 2.5em;
+
+}
+
+main h2{
+    padding: 30px;
+    text-align: left;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+main p{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main img{
+    width: 100%;
+}
+
+.Livro{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    min-width: 320px;
+}
+
+.receitas{
+    margin: auto;
+    max-width: 350px;
+    min-width: 50px;
+    padding: 20px 30px 30px 90px;
+}
+
+
+.gifomori{
+   max-width: 450px;
+   min-width: 200px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
+
+
+div.tags{
+    width: 100%;
+    
+}
+
+.tags > img{
+    margin: auto;
+    display: block;
+    max-width: 600px;
+    min-width: 320px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 12px;
+
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-family: "Omori1";
+    font-size: 1.5em;
+}
