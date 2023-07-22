@@ -22,34 +22,32 @@ body{
     
     margin: auto;
     background-image: url(1148181.png);
+    width: 100%;
+    display:block;
 }
 
 
-header{
+.logo{
     background-color: black;
+    width: 100%;
+    display: block;
     margin: auto;
     max-width: 100%;
     min-width: 320px;
-    width: 100%;
 }
 
-header > img{
-    background-color: black;
+.logo > img{
     width: 320px;
     margin: auto;
     display: block;
-    max-width: 100%;
-    min-width: 320px;
 }
 
 nav{
+    padding: 10px;
+   margin: auto;
+   background-color: black;
+  
    
-   max-width: 100%;
-   min-width: none;
-    padding: 20px;
-    padding-left: 40px;
-    margin: auto;
-    background-color: black;
 }
 
 nav > a{
