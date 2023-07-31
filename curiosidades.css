@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: Omori;
-    src: url(OMORI_GAME.ttf) format(truetype);
+    src: url(fontes/OMORI_GAME.ttf) format(truetype);
 }
 
 @font-face {
     font-family: Omori1;
-    src: url(OMORI_GAME2.ttf);
+    src: url(fontes/OMORI_GAME2.ttf) format(truetype);
 }
 
 
@@ -27,28 +27,24 @@
 
 
 body{
-    
-    margin: auto;
-    background-image: url(1148181.png);
-    width: 100%;
-    display: block;
+  height: 100vh;  
+  background-image: url(imagens/background.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
 }
 
 
-
-.logo{
+header{
+   height: 200px;
+   padding: 20px;
     background-color: black;
-    width: 100%;
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    min-width: 320px;
-}
-
-.logo > img{
-    width: 320px;
-    margin: auto;
-    display: block;
+    background-image: url(imagens/omori-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
 }
 
 nav{
@@ -121,43 +117,78 @@ main p{
 
 main img{
     width: 100%;
+  
 }
 
-.Livro{
+#Livro{
+  width: 100%;
+}
+
+#Livro > img{
+    max-width: 40%;
     margin: auto;
     display: block;
-    max-width: 500px;
-    min-width: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+   
 }
 
-.receitas{
-   width: 30%;
-    margin: auto;
-    max-width: 350px;
-    min-width: 150px;
-    padding: 20px 10px 30px 100px;
-}
+#Receitas{
+   
+    width: 100%;
+    
+}   
 
-
-.gifomori{
-   max-width: 450px;
-   min-width: 200px;
-    margin: auto;
-    padding: 10px;
+#Receitas > img{
     display: block;
+    width:  30%;
+    margin: auto;
+    padding: 20px;
+    
+    
+    
+  
+}
+
+#altura{
+    width: 100%;
+}
+
+#altura > img{
+    border: 3px solid black;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    width: 65%;
 }
 
 
-div.tags{
+#gifemoções{
+  width: 100%;
+}
+
+#gifemoções > img{
+    width: 40%;
+     margin: auto;
+     padding: 10px;
+     display: block;
+     border: 2px solid black;
+    box-shadow: 1px 2px 3px black;
+}
+
+#tags{
     width: 100%;
     
 }
 
-.tags > img{
-    margin: auto;
+#tags > img{
     display: block;
-    max-width: 600px;
-    min-width: 320px;
+    margin: auto;
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 10px;
 }
 
 footer{

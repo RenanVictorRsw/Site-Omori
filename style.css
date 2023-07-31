@@ -2,26 +2,35 @@
 
 @font-face {
     font-family: "Omori";
-    src: url(OMORI_GAME.ttf) format(truetype); 
+    src: url(fontes/OMORI_GAME.ttf) format(truetype); 
 }
 
 @font-face {
     font-family: "Omori1";
-    src: url(OMORI_GAME2.ttf) format(truetype);
+    src: url(/fontes/OMORI_GAME2.ttf) format(truetype);
 }
 
-@import url('https://fonts.googleapis.com/css2?family= Roboto :ital,wght@1,100 & display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
-    background-color: rgba(0, 0, 0, 0.877);
+    height: 100vh;
+    background-color: black;
     margin: auto;
 }
 
 header{
     background-color: black;
-    margin: auto;
+    background-image: url(imagens/omori-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 200px;
+    padding: 20px;
+    
 }
+
+
 
 #logo{
     margin: auto;
@@ -31,12 +40,13 @@ header{
 }
 
 nav{
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     background-color: black;
 }
 
-nav > a{
+nav > a {
+   
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -72,9 +82,10 @@ main h2{
 main p{
     text-align: justify;
     line-height: 28px;
-    text-indent: 5px;
-    font-family: 'roboto', sem serifa;
+    text-indent: 25px;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
+    font-weight: normal;
     
    
 }
@@ -94,6 +105,7 @@ div#video{
 }
 
 div#video > iframe{
+   
     position: absolute;
     top: 5%;
     left: 5%;
