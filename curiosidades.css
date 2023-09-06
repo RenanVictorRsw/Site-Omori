@@ -27,6 +27,7 @@
 
 
 body{
+  width: auto;
   height: 100vh;  
   background-image: url(imagens/background.png);
   background-size: contain;
@@ -37,20 +38,25 @@ body{
 
 
 header{
-   height: 200px;
-   padding: 20px;
+    margin: auto;
+    max-width:  100%;
+    height: 200px;
+    padding: 20px;
     background-color: black;
     background-image: url(imagens/omori-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    
 }
 
 nav{
+    width: 100%;
     background-color: black;
+    background-size: contain;
     padding: 10px;
     margin: auto;
+ 
 }
 
 
@@ -70,7 +76,7 @@ nav >a:hover{
 
 main{
    
-    width: 80%;
+    width: 70%;
     background-color: white;
     margin: auto;
     padding: 30px;
@@ -125,7 +131,7 @@ main img{
 }
 
 #Livro > img{
-    max-width: 40%;
+    max-width: 400px;
     margin: auto;
     display: block;
     border: 1px solid black;
@@ -142,7 +148,7 @@ main img{
 
 #Receitas > img{
     display: block;
-    width:  30%;
+    max-width:  280px;
     margin: auto;
     padding: 20px;
     
@@ -152,7 +158,12 @@ main img{
 }
 
 #altura{
-    width: 100%;
+   background-image: url(imagens/alturas.JPG);
+   height: 550px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-attachment: scroll;
 }
 
 #altura > img{
@@ -160,7 +171,7 @@ main img{
     border-radius: 15px;
     display: block;
     margin: auto;
-    width: 65%;
+    width: 400px;
 }
 
 
@@ -169,7 +180,7 @@ main img{
 }
 
 #gifemoções > img{
-    width: 40%;
+    max-width: 400px;
      margin: auto;
      padding: 10px;
      display: block;
@@ -185,7 +196,7 @@ main img{
 #tags > img{
     display: block;
     margin: auto;
-    width: 40%;
+    max-width: 500px;
     border: 1px solid black;
     box-shadow: 1px 2px 3px black;
     border-radius: 10px;

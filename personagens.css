@@ -10,145 +10,164 @@
     src: url(fontes/OMORI_GAME2.ttf);
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+ margin: 0;
+ padding: 0; 
 }
+
 
 body{
     height: 100vh;
-    background-image: url(imagens/background.png);
-    background-size: contain;
-    background-repeat: repeat;
-    background-attachment: scroll;
- 
-   
+    background-image: url(https://64.media.tumblr.com/88a77a6e025bd356fbb23b1c2c469514/9b70497cc2682c30-7f/s640x960/159560ce36deaefe3a39720fadbb530762620ecf.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
 }
 
 header{
-
-    height: 200px;
-    padding: 20px;
-    background-image: url("imagens/omori-logo.png");
+    height: 10vw;
     background-color: black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-  
+    padding: 20px;
+
+}
+
+#logo{
+    display: block;
+    width: 20vw;
+    margin: auto;
+
+    
 }
 
 nav{
-    
-    padding: 10px;
-   margin: auto;
-   background-color: black;
-  
-   
+    background-color: black;
+    padding: 20px;
 }
 
 nav > a{
+    font-size: 1vw;
+    padding: 15px;
     color: white;
-    padding: 10px;
     text-decoration: none;
-    font-family: 'Omori1';
-    font-size: 1.5em;
+    
 }
 
-nav >a:hover{
-    background-color: rgb(230, 166, 230);
+nav > a:hover{
+    background-color:#4010BD;
+    padding: 10px;
     border-radius: 10px;
-    transition-duration: 1s;
+
 }
+
+
+
 
 main{
-    
+    width: 65%;
     background-color: white;
     margin: auto;
-    padding: 30px;
-    width: 80%;
-    max-width: 100%;
-    min-width: 320px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 1px 1px 3px black;
+    padding: 40px;
+    border-radius: 10px 10px;
     
 }
 
-
-
 main h2{
+    font-family:"Omori1";
     text-align: center;
-    font-family: "Omori1";
-    font-size: 3em;
+    font-size: 3vw;
+}
+
+
+main h3{
+    font-size: 1.7vw;
+    text-align: start;
+    padding: 20px;
+    text-decoration: underline;
+
 }
 
 main p{
+
     font-family: 'Ubuntu', sans-serif;
-    text-align: justify;
+    font-size: 1.1vw;
+    line-height: 2.5vw;
     padding: 20px;
-    line-height: 30px;
-    
+
+
 }
-strong{
+
+main strong{
     background-color: black;
-    color: #ffffff;
-    border-radius: 4px;
-   
+    border-radius: 5px;
+    color: white;
 }
+
+main strong > a{
+    color: white;
+}
+
+main strong > a::after{
+    content: "⚠️";
+    padding: 10px;
+}
+
 
 
 #personagens{
-    width: 150px;
-    height: 320px;
-    display: inline;
+display: inline;
+width: 20vw;
+
     
 
 }
 
 #personagens > .sunny{
-    width: 120px;
+width: 12vh;
     padding: 20px;
     
 }
 
 #personagens > .aubrey{
-    width: 120px;
+   width: 12vh;
     padding: 20px;
 }
 
 #personagens > .aubrey2{
-    width: 205px;
+    width: 20vh;
     padding: 20px;
 }
 
 
 #personagens > .kel{
-    width: 200px;
-    padding: 10px;
+    width: 20vh;
+    padding: 20px;
 }
 
 #personagens > .hero{
-    width: 155px;
+    width: 15.4vh;
     padding: 20px;
 }
 
 #personagens > .hero2{
-    width: 136px;
+    width: 13.6vh;
     padding: 20px;
 }
 
 #personagens > .basil{
-    width: 110px;
+    width: 11vh;
     padding: 25px;
 }
 
 #personagens > .mari{
-    width: 200px;
+    width: 20vh;
     padding: 20px;
 }
+
 
 
 
@@ -161,26 +180,26 @@ strong{
     content: "❤️";
 }
 
-#final{
 
+#final{
+    background-color: transparent;
+    padding: 20px;
+    height: 40vh;
+}
+
+#final > img{
+
+    width: 30vw;
     margin: auto;
-    min-width: 320px;
-    height: 500px;
-  background-color: black;
-  background-image: url(imagens/agradecimento2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  border-radius: 10px;
-  border: 3px solid black;
+    display: block;
+    border-radius: 10px;
 }
 
 
 
 footer{
     background-color: black;
-   width: 100%;
+   width: 100vw;
    padding: 12px;
    
 }
