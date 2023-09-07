@@ -20,60 +20,57 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
-*{
+  *{
     margin: 0;
-    padding: 0;
-}
-
-
-body{
-  width: auto;
-  height: 100vh;  
-  background-image: url(imagens/background.png);
-  background-size: contain;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  
-}
-
-
-header{
-    margin: auto;
-    max-width:  100%;
-    height: 200px;
-    padding: 20px;
-    background-color: black;
-    background-image: url(imagens/omori-logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-}
-
-nav{
-    width: 100%;
-    background-color: black;
-    background-size: contain;
-    padding: 10px;
-    margin: auto;
- 
-}
-
-
-nav > a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-family: 'Omori1';
-    font-size: 1.5em;
-}
-
-nav >a:hover{
-    background-color: rgb(230, 166, 230);
-    border-radius: 10px;
-    transition-duration: 1s;
-}
-
+    padding: 0; 
+   }
+   
+   
+   body{
+       height: 100vh;
+       background-image: url(https://64.media.tumblr.com/88a77a6e025bd356fbb23b1c2c469514/9b70497cc2682c30-7f/s640x960/159560ce36deaefe3a39720fadbb530762620ecf.gifv);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       background-attachment: fixed;
+   
+   }
+   
+   header{
+       height: 10vw;
+       background-color: black;
+       padding: 20px;
+   
+   }
+   
+   #logo{
+       display: block;
+       width: 20vw;
+       margin: auto;
+   
+       
+   }
+   
+   nav{
+       background-color: black;
+       padding: 20px;
+   }
+   
+   nav > a{
+       font-size: 1vw;
+       padding: 15px;
+       color: white;
+       text-decoration: none;
+       
+   }
+   
+   nav > a:hover{
+       background-color:#4010BD;
+       padding: 10px;
+       border-radius: 10px;
+   
+   }
+   
 main{
    
     width: 70%;
@@ -116,8 +113,9 @@ font-family: Arial, Helvetica, sans-serif;
 main p{
     font-family: 'Ubuntu', sans-serif;
     padding: 20px;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: justify;
+    font-size: 1.1vw;
 
 }
 
@@ -131,7 +129,7 @@ main img{
 }
 
 #Livro > img{
-    max-width: 400px;
+    width: 30vw;
     margin: auto;
     display: block;
     border: 1px solid black;
@@ -148,7 +146,7 @@ main img{
 
 #Receitas > img{
     display: block;
-    max-width:  280px;
+    width:   20vw;
     margin: auto;
     padding: 20px;
     
@@ -158,12 +156,8 @@ main img{
 }
 
 #altura{
-   background-image: url(imagens/alturas.JPG);
-   height: 550px;
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
-   background-attachment: scroll;
+    width: 100%;
+
 }
 
 #altura > img{
@@ -171,7 +165,21 @@ main img{
     border-radius: 15px;
     display: block;
     margin: auto;
-    width: 400px;
+    width: 40vw;
+}
+
+
+#aniversario{
+    width: 100%;
+}
+
+#aniversario > img{
+    width: 30vw;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    box-shadow: 1px 2px 3px black;
 }
 
 
@@ -180,7 +188,7 @@ main img{
 }
 
 #gifemoções > img{
-    max-width: 400px;
+    width: 30vw;
      margin: auto;
      padding: 10px;
      display: block;
@@ -196,7 +204,7 @@ main img{
 #tags > img{
     display: block;
     margin: auto;
-    max-width: 500px;
+    width: 40vw;
     border: 1px solid black;
     box-shadow: 1px 2px 3px black;
     border-radius: 10px;
