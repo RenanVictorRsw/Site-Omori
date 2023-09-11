@@ -132,44 +132,44 @@ width: 20vw;
 }
 
 #personagens > .sunny{
-width: 12vh;
-    padding: 20px;
-    
+        width: 7vw;
+        padding: 20px;
 }
 
 #personagens > .aubrey{
-   width: 12vh;
+   width: 8vw;
     padding: 20px;
+   
 }
 
 #personagens > .aubrey2{
-    width: 20vh;
+    width: 14vw;
     padding: 20px;
 }
 
 
 #personagens > .kel{
-    width: 20vh;
+    width: 12vw;
     padding: 20px;
 }
 
 #personagens > .hero{
-    width: 15.4vh;
+    width: 10vw;
     padding: 20px;
 }
 
 #personagens > .hero2{
-    width: 13.6vh;
+    width: 8.5vw;
     padding: 20px;
 }
 
 #personagens > .basil{
-    width: 11vh;
+    width: 7vw;
     padding: 25px;
 }
 
 #personagens > .mari{
-    width: 20vh;
+    width: 13.5vw;
     padding: 20px;
 }
 
@@ -203,7 +203,7 @@ width: 12vh;
 
 
 footer{
-    background-color: black;
+background-color: black;
    width: 100vw;
    padding: 12px;
    
