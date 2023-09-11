@@ -26,50 +26,56 @@
    }
    
    
+ 
+   
    body{
-       height: 100vh;
-       background-image: url(https://64.media.tumblr.com/88a77a6e025bd356fbb23b1c2c469514/9b70497cc2682c30-7f/s640x960/159560ce36deaefe3a39720fadbb530762620ecf.gifv);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center center;
-       background-attachment: fixed;
-   
-   }
-   
-   header{
-       height: 10vw;
-       background-color: black;
-       padding: 20px;
-   
-   }
-   
-   #logo{
-       display: block;
-       width: 20vw;
-       margin: auto;
-   
-       
-   }
-   
-   nav{
-       background-color: black;
-       padding: 20px;
-   }
-   
-   nav > a{
-       font-size: 1vw;
-       padding: 15px;
-       color: white;
-       text-decoration: none;
-       
-   }
-   
-   nav > a:hover{
-       background-color:#4010BD;
-       padding: 10px;
-       border-radius: 10px;
-   
-   }
+    height: 100vh;
+    background-image: url(https://64.media.tumblr.com/88a77a6e025bd356fbb23b1c2c469514/9b70497cc2682c30-7f/s640x960/159560ce36deaefe3a39720fadbb530762620ecf.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header{
+    
+   height: auto;
+
+    background-color: black;
+    
+    padding: 1px;
+
+}
+
+#logo{
+    display: block;
+    width: 20vw;
+    margin: auto;
+
+    
+}
+
+nav{
+
+    margin: auto;
+    padding: 20px;
+}
+
+
+nav > a{
+    font-size: 1vw;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    background-color:#4010BD;
+    padding: 10px;
+    border-radius: 10px;
+}
    
 main{
    

@@ -26,13 +26,16 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-
+    overflow-x: hidden;
 }
 
 header{
-    height: 10vw;
+    
+   height: auto;
+
     background-color: black;
-    padding: 20px;
+    
+    padding: 1px;
 
 }
 
@@ -45,9 +48,11 @@ header{
 }
 
 nav{
-    background-color: black;
+
+    margin: auto;
     padding: 20px;
 }
+
 
 nav > a{
     font-size: 1vw;
